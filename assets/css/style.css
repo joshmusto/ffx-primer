@@ -1,0 +1,204 @@
+/* General Styling */
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+body {
+    margin: 0 auto 0 auto;
+}
+h1 {
+    font-size: 40px;
+    align-content: center;
+}
+h2 {
+    font-size: 30px;
+    padding: 0 0 20px 0;
+}
+h3 {
+    font-size: 20px;
+}
+div {
+    margin: 10px 40px 10px 40px;
+    padding: 10px 0 20px 0;
+}
+.divider {
+    width: 80vw;
+    display: inline-block;
+    border-bottom: 2px;
+    border-style: solid;
+    margin: 0;
+    padding: 0;
+}
+section {
+    padding: 10px;
+    background-color:rgb(165, 233, 255);
+}
+.check {
+    background-color:rgb(139, 255, 199)
+}
+.italic {
+    font-style: italic;
+}
+.center {
+    display: inline-block;
+}
+
+/* header */
+header {
+    padding: 20px;
+    background-color: rgb(165, 233, 255);
+}
+
+/* aeon section */
+.sectionAeon {
+    display: inline-block;
+    vertical-align: center;
+    width: 15vw;
+    margin: 10px 0 10px 0;
+}
+.sectionAeon p {
+    text-align: left;
+    margin: 5px 0 0 0;
+}
+.sectionAeon img {
+    height: 100px;
+    margin: 10px 0 5px 0;
+    filter: grayscale(100);
+}
+.sectionAeon.check img {
+    filter: none;
+}
+.sectionAeonOpt {
+    display: inline-block;
+    width: 85vw;
+    margin: 10px 0 10px 0;
+}
+.sectionAeonOpt p {
+    text-align: left;
+    margin: 5px 0 0 0;
+}
+.sectionAeonOpt img {
+    height: 100px;
+    margin: 10px 0 5px 0;
+    filter: grayscale(100);
+}
+.sectionAeonOpt.check img {
+    filter: none;
+}
+
+/* primer section */
+.sectionPrimer {
+    display: inline-block;
+    vertical-align: middle;
+    height: 280px;
+    width: 20vw;
+    margin: 10px 0 10px 0;
+}
+.sectionPrimer p.translate {
+    text-align: center;
+}
+.sectionPrimer p {
+    text-align: left;
+    margin: 5px 0 0 0;
+}
+.sectionPrimer img {
+    height: 100px;
+    margin: 10px 0 5px 0;
+    filter: grayscale(100);
+}
+.sectionPrimer.check img {
+    filter: none;
+}
+
+/* celestial weapons */
+.sectionWeapon {
+    display: inline-block;
+    width: 80vw;
+    margin: 10px 0 10px 0;
+    padding: 20px 10px 20px 10px;
+}
+.sectionWeapon p {
+    text-align: left;
+    margin: 10px 0 10px 0;
+}
+.sectionWeapon img {
+    height: 200px;
+    margin: 10px 0 5px 0;
+    filter: grayscale();
+}
+.sectionWeapon.check img {
+    filter: none;
+}
+.weaponInfo {
+    text-align: left;
+    margin: 10px
+}
+.weaponCard {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 10px 0 10px;
+}
+.weaponCard.twoThirds {
+    width: 52vw;
+}
+.weaponCard.third {
+    width: 20vw;
+}
+.weaponCard ul {
+    list-style-type: none;
+}
+
+/* sphere section */
+.sectionSphere {
+    display: inline-block;
+    vertical-align: middle;
+    height: 180px;
+    width: 18vw;
+    margin: 10px 0 10px 0;
+}
+.sectionSphere p {
+    text-align: left;
+    margin: 5px 0 0 0;
+}
+.sectionSphere img {
+    height: 80px;
+    margin: 10px 0 5px 0;
+    filter: grayscale(100);
+}
+.sectionSphere.check img {
+    filter: none;
+}
+
+/* lancet section */
+.sectionLancetMove {
+    display: inline-block;
+    vertical-align: middle;
+    height: 220px;
+    width: 18vw;
+    margin: 10px 0 10px 0;
+}
+.sectionLancetMove p {
+    text-align: left;
+    margin: 5px 0 10px 0;
+}
+
+/* monster arena */
+.sectionMonster {
+    display: inline-block;
+    vertical-align: middle;
+    height: 180px;
+    width: 18vw;
+    margin: 10px 0 10px 0;
+}
+.sectionMonster p {
+    text-align: left;
+    margin: 5px 0 0 0;
+}
+.sectionMonster img {
+    height: 80px;
+    margin: 10px 0 5px 0;
+    filter: grayscale(100);
+}
+.sectionMonster.check img {
+    filter: none;
+}

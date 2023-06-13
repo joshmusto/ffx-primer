@@ -1,0 +1,799 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>FFX Primer</title>
+        <meta charset="UTF-8" />
+        <meta name="description" content="FFX playthrough tool">
+        <meta name="keywords" content="keywords for search engines">
+        <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>FFX Primer</h1>
+        </header>
+        <div id="sectionAeons">
+            <h2>Aeons</h2>
+            <h3>Required</h3>
+                <section onclick="check(this)" class="sectionAeon" id="sectionValefor">
+                    <h4>Valefor</h4>
+                    <img src="./assets/images/aeons/valefor.png"/>
+                    <p>Location:</p>
+                    <p class="italic">Besaid Temple</p>
+                    <p>Dmg Limit Unlock:</p>
+                    <p class="italic">Moon Sigil</p>
+                </section>
+                <section onclick="check(this)" class="sectionAeon" id="sectionIfrit">
+                    <h4>Ifrit</h4>
+                    <img src="./assets/images/aeons/ifrit.png"/>
+                    <p>Location:</p>
+                    <p class="italic">Kilika Temple</p>
+                    <p>Dmg Limit Unlock:</p>
+                    <p class="italic">Jupiter Sigil</p>
+                </section>
+                <section onclick="check(this)" class="sectionAeon" id="sectionIxion">
+                    <h4>Ixion</h4>
+                    <img src="./assets/images/aeons/ixion.png"/>
+                    <p>Location:</p>
+                    <p class="italic">Djose Temple</p>
+                    <p>Dmg Limit Unlock:</p>
+                    <p class="italic">Saturn Sigil</p>
+                </section>
+                <section onclick="check(this)" class="sectionAeon" id="sectionShiva">
+                    <h4>Shiva</h4>
+                    <img src="./assets/images/aeons/shiva.png"/>
+                    <p>Location:</p>
+                    <p class="italic">Macalania Temple</p>
+                    <p>Dmg Limit Unlock:</p>
+                    <p class="italic">Venus Sigil</p>
+                </section>
+                <section onclick="check(this)" class="sectionAeon" id="sectionBahamut">
+                    <h4>Bahamut</h4>
+                    <img src="./assets/images/aeons/bahamut.png"/>
+                    <p>Location:</p>
+                    <p class="italic">Bevelle Temple</p>
+                    <p>Dmg Limit Unlock:</p>
+                    <p class="italic">None</p>
+                </section>
+            <h3>Optional</h3>
+            <section onclick="check(this)" class="sectionAeonOpt" id="sectionYojimbo">
+                <h4>Yojimbo</h4>
+                <img src="./assets/images/aeons/yojimbo.png"/>
+                <p>Location: <span class='italic'>Cavern of the Stolen Fayth</span></p>
+                <p>Damage Limit Unlock: <span class='italic'>Mars Sigil</span></p>
+                <p>Unlock Method:</p>
+                <p class="italic">Enter the Cavern of the Stolen Fayth, accessible after reaching the Calm Lands. Navigate the dungeon and defeat the boss Yojimbo at the end. Haggle with Yojimbo's fayth in the following way:</p>
+                <p class='italic center'>125,001 gil --> 148,051 gil --> 178,931 gil</p>
+                <p class='italic'>Wait 5-8 seconds before entering an offer to prevent him from declining. (Optionally, give Yojimbo 3x his asking price at any point to hire him and receive two Teleport Spheres.)</p>
+            </section>
+            <section onclick="check(this)" class="sectionAeonOpt" id="sectionAnima">
+                <h4>Anima</h4>
+                <img src="./assets/images/aeons/anima.png"/>
+                <p>Location: <span class='italic'>Baaj Temple</span></p>
+                <p>Damage Limit Unlock: <span class='italic'>None</span></p>
+                <p>Unlock Method:</p>
+                <p class="italic">Using the airship, fly to Baaj Temple. After defeating the boss Geosgaeno underwater, enter the Chamber of the Fayth. If all six destruction sphere puzzles have been solved in each Cloister of Trials, you will be able to claim Anima. If the Besaid and/or Macalania Temples have not been solved, you will need to defeat Dark Valefor and/or Dark Shiva respectively in order to access the temples.</p>
+            </section>
+            <section onclick="check(this)" class="sectionAeonOpt" id="sectionMagusSisters">
+                <h4>Magus Sisters</h4>
+                <img src="./assets/images/aeons/magusSisters.png"/>
+                <p>Location: <span class='italic'>Remiem Temple</span></p>
+                <p>Damage Limit Unlock: <span class='italic'>None</span></p>
+                <p>Unlock Method:</p>
+                <p class="italic">Obtain all other Aeons. Obtain the Blossom Crown by capturing every monster on Mt. Gagazet and unlocking Catoblepas. Obtain the Flower Sceptre by defeating Belgemine's Bahamut.</p>
+            </section>
+        </div>
+        <section class="divider"></section>
+        <div id="sectionPrimer">
+            <h2>Al Bhed Primers</h2>
+            <p>There are four primers that are permanently missable. They are marked with an *</p>
+            <p>There are four primers that are missable, but can be obtained in a secondary location. These primers have both locations listed, separated with a /</p>
+            <section onclick="check(this)" class="sectionPrimer" id="sectionPrimer1">
+                <h4>Primer I</h4>
+                <img src="./assets/images/primers/book.png"/>
+                <p class="italic translate"> Y --> A</p>
+                <p>Location:</p>
+                <p class="italic">Al Bhed Salvage Ship / Sanubia Desert NE of Oasis</p>
+            </section>
+            <section onclick="check(this)" class="sectionPrimer" id="sectionPrimer2">
+                <h4>Primer II</h4>
+                <img src="./assets/images/primers/book.png"/>
+                <p class="italic translate"> P --> B</p>
+                <p>Location:</p>
+                <p class="italic">Besaid Village - Crusaders Lodge</p>
+            </section>
+            <section onclick="check(this)" class="sectionPrimer" id="sectionPrimer3">
+                <h4>Primer III</h4>
+                <img src="./assets/images/primers/book.png"/>
+                <p class="italic translate"> L --> C</p>
+                <p>Location:</p>
+                <p class="italic">S.S. Liki Engine Room / Sanubia Desert - tent by Wakka</p>
+            </section>
+            <section onclick="check(this)" class="sectionPrimer" id="sectionPrimer4">
+                <h4>Primer IV</h4>
+                <img src="./assets/images/primers/book.png"/>
+                <p class="italic translate"> T --> D</p>
+                <p>Location:</p>
+                <p class="italic">Kilika Port - Tavern</p>
+            </section>
+            <section onclick="check(this)" class="sectionPrimer" id="sectionPrimer5">
+                <h4>Primer V</h4>
+                <img src="./assets/images/primers/book.png"/>
+                <p class="italic translate"> A --> E</p>
+                <p>Location:</p>
+                <p class="italic">S.S. Winno / Sanubia Desert - rubble by Kimahri</p>
+            </section>
+            <section onclick="check(this)" class="sectionPrimer" id="sectionPrimer6">
+                <h4>Primer VI</h4>
+                <img src="./assets/images/primers/book.png"/>
+                <p class="italic translate"> V --> F</p>
+                <p>Location:</p>
+                <p class="italic">Luca Stadium - Basement B</p>
+            </section>
+            <section onclick="check(this)" class="sectionPrimer" id="sectionPrimer7">
+                <h4>Primer VII</h4>
+                <img src="./assets/images/primers/book.png"/>
+                <p class="italic translate"> K --> G</p>
+                <p>Location:</p>
+                <p class="italic">Luca Theater - Reception</p>
+            </section>
+            <section class="sectionPrimer check" id="sectionPrimer8">
+                <h4>Primer VIII</h4>
+                <img src="./assets/images/primers/book.png"/>
+                <p class="italic translate"> R --> H</p>
+                <p>Location:</p>
+                <p class="italic">Mi'ihen Highroad (gift from Rin)</p>
+            </section>
+            <section onclick="check(this)" class="sectionPrimer" id="sectionPrimer9">
+                <h4>Primer IX</h4>
+                <img src="./assets/images/primers/book.png"/>
+                <p class="italic translate"> E --> I</p>
+                <p>Location:</p>
+                <p class="italic">Mi'ihen Highroad - Newroad, North</p>
+            </section>
+            <section onclick="check(this)" class="sectionPrimer" id="sectionPrimer10">
+                <h4>Primer X</h4>
+                <img src="./assets/images/primers/book.png"/>
+                <p class="italic translate"> Z --> J</p>
+                <p>Location:</p>
+                <p class="italic">Mushroom Rock Road - Precipice</p>
+            </section>
+            <section onclick="check(this)" class="sectionPrimer" id="sectionPrimer11">
+                <h4>Primer XI</h4>
+                <img src="./assets/images/primers/book.png"/>
+                <p class="italic translate"> G --> K</p>
+                <p>Location:</p>
+                <p class="italic">Djose Highroad</p>
+            </section>
+            <section onclick="check(this)" class="sectionPrimer" id="sectionPrimer12">
+                <h4>Primer XII</h4>
+                <img src="./assets/images/primers/book.png"/>
+                <p class="italic translate">M --> L</p>
+                <p>Location:</p>
+                <p class="italic">Moonflow - North Wharf</p>
+            </section>
+            <section onclick="check(this)" class="sectionPrimer" id="sectionPrimer13">
+                <h4>Primer XIII</h4>
+                <img src="./assets/images/primers/book.png"/>
+                <p class="italic translate"> S --> M</p>
+                <p>Location:</p>
+                <p class="italic">Guadosalam - House</p>
+            </section>
+            <section onclick="check(this)" class="sectionPrimer" id="sectionPrimer14">
+                <h4>Primer XIV</h4>
+                <img src="./assets/images/primers/book.png"/>
+                <p class="italic translate"> H --> N</p>
+                <p>Location:</p>
+                <p class="italic">Thunder Plains - Agency (gift from Rin, talk to Rikku inside then say "Okay") / Sanubia Desert - dead end by Rikku</p>
+            </section>
+            <section onclick="check(this)" class="sectionPrimer" id="sectionPrimer15">
+                <h4>Primer XV</h4>
+                <img src="./assets/images/primers/book.png"/>
+                <p class="italic translate"> U --> O</p>
+                <p>Location:</p>
+                <p class="italic">Macalania Woods - Lake Road</p>
+            </section>
+            <section onclick="check(this)" class="sectionPrimer" id="sectionPrimer16">
+                <h4>Primer XVI</h4>
+                <img src="./assets/images/primers/book.png"/>
+                <p class="italic translate"> B --> P</p>
+                <p>Location:</p>
+                <p class="italic">Lake Macalania - Agency Front</p>
+            </section>
+            <section onclick="check(this)" class="sectionPrimer" id="sectionPrimer17">
+                <h4>Primer XVII</h4>
+                <img src="./assets/images/primers/book.png"/>
+                <p class="italic translate"> X --> Q</p>
+                <p>Location:</p>
+                <p class="italic">Sanubia Desert - Central</p>
+            </section>
+            <section onclick="check(this)" class="sectionPrimer" id="sectionPrimer18">
+                <h4>Primer XVIII</h4>
+                <img src="./assets/images/primers/book.png"/>
+                <p class="italic translate"> N --> R</p>
+                <p>Location:</p>
+                <p class="italic">Sanubia Desert - Central</p>
+            </section>
+            <section onclick="check(this)" class="sectionPrimer" id="sectionPrimer19">
+                <h4>Primer XIX*</h4>
+                <img src="./assets/images/primers/book.png"/>
+                <p class="italic translate"> C --> S</p>
+                <p>Location:</p>
+                <p class="italic">Al Bhed Home</p>
+            </section>
+            <section onclick="check(this)" class="sectionPrimer" id="sectionPrimer20">
+                <h4>Primer XX*</h4>
+                <img src="./assets/images/primers/book.png"/>
+                <p class="italic translate"> D --> T</p>
+                <p>Location:</p>
+                <p class="italic">Al Bhed Home - Living Quarters</p>
+            </section>
+            <section onclick="check(this)" class="sectionPrimer" id="sectionPrimer21">
+                <h4>Primer XXI*</h4>
+                <img src="./assets/images/primers/book.png"/>
+                <p class="italic translate"> I --> U</p>
+                <p>Location:</p>
+                <p class="italic">Al Bhed Home - Main Corridor</p>
+            </section>
+            <section onclick="check(this)" class="sectionPrimer" id="sectionPrimer22">
+                <h4>Primer XXII*</h4>
+                <img src="./assets/images/primers/book.png"/>
+                <p class="italic translate"> J --> V</p>
+                <p>Location:</p>
+                <p class="italic">Bevelle Temple - Priests' Passage</p>
+            </section>
+            <section onclick="check(this)" class="sectionPrimer" id="sectionPrimer23">
+                <h4>Primer XXIII</h4>
+                <img src="./assets/images/primers/book.png"/>
+                <p class="italic translate"> F --> W</p>
+                <p>Location:</p>
+                <p class="italic">Calm Lands - Central</p>
+            </section>
+            <section onclick="check(this)" class="sectionPrimer" id="sectionPrimer24">
+                <h4>Primer XXIV</h4>
+                <img src="./assets/images/primers/book.png"/>
+                <p class="italic translate"> Q --> X</p>
+                <p>Location:</p>
+                <p class="italic">Remiem Temple</p>
+            </section>
+            <section onclick="check(this)" class="sectionPrimer" id="sectionPrimer25">
+                <h4>Primer XXV</h4>
+                <img src="./assets/images/primers/book.png"/>
+                <p class="italic translate"> O --> Y</p>
+                <p>Location:</p>
+                <p class="italic">Cavern of the Stolen Fayth</p>
+            </section>
+            <section onclick="check(this)" class="sectionPrimer" id="sectionPrimer26">
+                <h4>Primer XXVI</h4>
+                <img src="./assets/images/primers/book.png"/>
+                <p class="italic translate"> W --> Z</p>
+                <p>Location:</p>
+                <p class="italic">Omega Ruins</p>
+            </section>
+        </div>
+        <section class="divider"></section>
+        <div id="sectionBlitzball">
+            <h2>Blitzball</h2>
+            <h3>The Jecht Shot</h3>
+            <h3>All-Star Team</h3>
+        </div>
+        <section class="divider"></section>
+        <div id="sectionCelestialWeapon">
+            <h2>Celestial Weapons</h2>
+            <p>The Celestial Mirror is required to acquire some and power up all Celestial Weapons.</p>
+            <p>Some Celestial Weapons, once fully powered up, allow certain Aeons to break the damage limit.</p>
+            <section onClick="check(this)" class="sectionWeapon" id="sectionWeaponMirror">
+                <h4>Celestial Mirror</h4>
+                <article class="weaponInfo">
+                    <article class="weaponCard">
+                        <img src="./assets/images/weapons/mirror.PNG"/>
+                    </article>
+                    <article class="weaponCard twoThirds">
+                        <p>Requirements: <span class='italic'>Cloudy Mirror</span></p>
+                        <p class="italic">After becoming Chocobo certified, go to Remiem Temple and race the champion chocobo. Winning for the first time will reward you with the Cloudy Mirror. Go to Macalania Woods and find a woman missing her husband. Find the husband and return to the wife to find their son is now missing. Continue talking with either parent until they express concern, then travel the crystal walkways until you find the son in front of an altar. This altar will transform the Cloudy Mirror into the Celestial Mirror.</p>
+                    </article>
+                </article>
+            </section>
+            <section onclick="check(this)" class="sectionWeapon" id="sectionWeaponCaladbolg">
+                <h4>Caladbolg</h4>
+                <article class="weaponInfo">
+                    <article class="weaponCard">
+                        <img src="./assets/images/weapons/caladbolg.png"/>
+                    </article>
+                    <article class="weaponCard">
+                        <p>Owner: <span class='italic'>Tidus</span></p>
+                        <p>Damage Type: <span class='italic'>Max HP</span></p>
+                        <p>Aeon Damage Limit Break: <span class='italic'>None</span></p>
+                    </article>
+                </article>
+                <article class="weaponUpgrades">
+                    <article class="weaponCard third">
+                        <h4>Base Weapon</h4>
+                        <p>Location:<br><span class='italic'>Calm Lands</span></p>
+                        <p>Requirements:<br><span class='italic'>Race the Chocobo Trainer and beat their time. Own the Celestial Mirror</span></p>
+                        <p>Abilities:</p>
+                        <ul class="italic">
+                            <li>No AP</li>
+                        </ul>
+                    </article>
+                    <article class="weaponCard third">
+                        <h4>Sun Crest</h4>
+                        <p>Location:<br><span class='italic'>Zanarkand Dome - The Beyond</span></p>
+                        <p>Requirements:<br><span class='italic'>Defeat Yunalesca / Defeat Dark Bahamut</span></p>
+                        <p>Abilities:</p>
+                        <ul class="italic">
+                            <li>No AP</li>
+                            <li>Double Overdrive</li>
+                        </ul>
+                    </article>
+                    <article class="weaponCard third">
+                        <h4>Sun Sigil</h4>
+                        <p>Location:<br><span class='italic'>Calm Lands</span></p>
+                        <p>Requirements:<br><span class='italic'>Race the Chocobo Trainer and finish with a time of 0:00</span></p>
+                        <p>Abilities:</p>
+                        <ul class="italic">
+                            <li>Break Damage Limit</li>
+                            <li>Triple Overdrive</li>
+                            <li>Evade & Counter</li>
+                            <li>Magic Counter</li>
+                        </ul>
+                    </article>
+                </article>
+            </section>
+            <section onclick="check(this)" class="sectionWeapon" id="sectionWeaponNirvana">
+                <h4>Nirvana</h4>
+                <article class="weaponInfo">
+                    <article class="weaponCard">
+                        <img src="./assets/images/weapons/nirvana.png"/>
+                    </article>
+                    <article class="weaponCard">
+                        <p>Owner: <span class='italic'>Yuna</span></p>
+                        <p>Damage Type: <span class='italic'>Max MP</span></p>
+                        <p>Aeon Damage Limit Break: <span class='italic'>Valefor</span></p>
+                    </article>
+                </article>
+                <article class="weaponUpgrades">
+                    <article class="weaponCard third">
+                        <h4>Base Weapon</h4>
+                        <p>Location:<br><span class='italic'>Calm Lands</span></p>
+                        <p>Requirements:<br><span class='italic'>Capture each monster in the Calm Lands. Own the Celestial Mirror</span></p>
+                        <p>Abilities:</p>
+                        <ul class="italic">
+                            <li>No AP</li>
+                        </ul>
+                    </article>
+                    <article class="weaponCard third">
+                        <h4>Moon Crest</h4>
+                        <p>Location:<br><span class='italic'>Besaid docks</span></p>
+                        <p>Requirements:<br><span class='italic'>None</span></p>
+                        <p>Abilities:</p>
+                        <ul class="italic">
+                            <li>No AP</li>
+                            <li>Double Overdrive</li>
+                        </ul>
+                    </article>
+                    <article class="weaponCard third">
+                        <h4>Moon Sigil</h4>
+                        <p>Location:<br><span class='italic'>Remiem Temple</span></p>
+                        <p>Requirements:<br><span class='italic'>Defeat all of Belgemine's aeons and send Belgemine</span></p>
+                        <p>Abilities:</p>
+                        <ul class="italic">
+                            <li>Break Damage Limit</li>
+                            <li>Triple Overdrive</li>
+                            <li>Double AP</li>
+                            <li>One MP Cost</li>
+                        </ul>
+                    </article>
+                </article>
+            </section>
+            <section onclick="check(this)" class="sectionWeapon" id="sectionWeaponWorldChamp">
+                <h4>World Champion</h4>
+                <article class="weaponInfo">
+                    <article class="weaponCard">
+                        <img src="./assets/images/weapons/worldChampion.png"/>
+                    </article>
+                    <article class="weaponCard">
+                        <p>Owner: <span class='italic'>Wakka</span></p>
+                        <p>Damage Type: <span class='italic'>Max HP</span></p>
+                        <p>Aeon Damage Limit Break: <span class='italic'>Ifrit</span></p>
+                    </article>
+                </article>
+                <article class="weaponUpgrades">
+                    <article class="weaponCard third">
+                        <h4>Base Weapon</h4>
+                        <p>Location:<br><span class='italic'>Luca Cafe</span></p>
+                        <p>Requirements:<br><span class='italic'>Get 3rd place or better in a blitzball tournament. Own the Celestial Mirror</span></p>
+                        <p>Abilities:</p>
+                        <ul class="italic">
+                            <li>No AP</li>
+                        </ul>
+                    </article>
+                    <article class="weaponCard third">
+                        <h4>Jupiter Crest</h4>
+                        <p>Location:<br><span class='italic'>Luca - Besaid Aurochs' Locker Room</span></p>
+                        <p>Requirements:<br><span class='italic'>Finish the required blitzball tournament as part of the main story</span></p>
+                        <p>Abilities:</p>
+                        <ul class="italic">
+                            <li>No AP</li>
+                            <li>Double Overdrive</li>
+                        </ul>
+                    </article>
+                    <article class="weaponCard third">
+                        <h4>Jupiter Sigil</h4>
+                        <p>Location:<br><span class='italic'>Blitzball</span></p>
+                        <p>Requirements:<br><span class='italic'>50% chance of 1st place league reward after winning all of Wakka's Overdrives</span></p>
+                        <p>Abilities:</p>
+                        <ul class="italic">
+                            <li>Break Damage Limit</li>
+                            <li>Triple Overdrive</li>
+                            <li>Double AP</li>
+                            <li>Evade & Counter</li>
+                        </ul>
+                    </article>
+                </article>
+            </section>
+            <section onclick="check(this)" class="sectionWeapon" id="sectionWeaponOnionKnight">
+                <h4>Onion Knight</h4>
+                <article class="weaponInfo">
+                    <article class="weaponCard">
+                        <img src="./assets/images/weapons/onionKnight.png"/>
+                    </article>
+                    <article class="weaponCard">
+                        <p>Owner: <span class='italic'>Lulu</span></p>
+                        <p>Damage Type: <span class='italic'>Max MP</span></p>
+                    </article>
+                    <p>Aeon Damage Limit Break: <span class='italic'>Shiva</span></p>
+                </article>
+                <article class="weaponUpgrades">
+                    <article class="weaponCard third">
+                        <h4>Base Weapon</h4>
+                        <p>Location:<br><span class='italic'>Baaj Temple</span></p>
+                        <p>Requirements:<br><span class='italic'>Defeat Geosgaeno. Own the Celestial Mirror</span></p>
+                        <p>Abilities:</p>
+                        <ul class="italic">
+                            <li>No AP</li>
+                        </ul>
+                    </article>
+                    <article class="weaponCard third">
+                        <h4>Venus Crest</h4>
+                        <p>Location:<br><span class='italic'>Guadosalam - Farplane</span></p>
+                        <p>Requirements:<br><span class='italic'>Seymour has left for Macalania Temple</span></p>
+                        <p>Abilities:</p>
+                        <ul class="italic">
+                            <li>No AP</li>
+                            <li>Double Overdrive</li>
+                        </ul>
+                    </article>
+                    <article class="weaponCard third">
+                        <h4>Venus Sigil</h4>
+                        <p>Location:<br><span class='italic'>Thunder Plains</span></p>
+                        <p>Requirements:<br><span class='italic'>Dodge 200 consecutive lightning bolts</span></p>
+                        <p>Abilities:</p>
+                        <ul class="italic">
+                            <li>Break Damage Limit</li>
+                            <li>Triple Overdrive</li>
+                            <li>Magic Booster</li>
+                            <li>One MP Cost</li>
+                        </ul>
+                    </article>
+                </article>
+            </section>
+            <section onclick="check(this)" class="sectionWeapon" id="sectionWeaponSpiritLance">
+                <h4>Spirit Lance</h4>
+                <article class="weaponInfo">
+                    <article class="weaponCard">
+                        <img src="./assets/images/weapons/spiritLance.png"/>
+                    </article>
+                    <article class="weaponCard">
+                        <p>Owner: <span class='italic'>Kimahri</span></p>
+                        <p>Damage Type: <span class='italic'>Max HP</span></p>
+                        <p>Aeon Damage Limit Break: <span class='italic'>Ixion</span></p>
+                    </article>
+                </article>
+                <article class="weaponUpgrades">
+                    <article class="weaponCard third">
+                        <h4>Base Weapon</h4>
+                        <p>Location:<br><span class='italic'>Thunder Plains</span></p>
+                        <p>Requirements:<br><span class='italic'>Read 'Gandof and the Qactuars' in the Travel Agency. Pray at three Qactuar Stones in the Thunder Plains. Follow the ghost Qactuar to a broken tower and press &#9633</span></p>
+                        <p>Abilities:</p>
+                        <ul class="italic">
+                            <li>No AP</li>
+                        </ul>
+                    </article>
+                    <article class="weaponCard third">
+                        <h4>Sun Crest</h4>
+                        <p>Location:<br><span class='italic'>Mt. Gagazet - Pillars past Seymour Flux</span></p>
+                        <p>Requirements:<br><span class='italic'>Defeat Seymour Flux</span></p>
+                        <p>Abilities:</p>
+                        <ul class="italic">
+                            <li>No AP</li>
+                            <li>Double Overdrive</li>
+                        </ul>
+                    </article>
+                    <article class="weaponCard third">
+                        <h4>Sun Sigil</h4>
+                        <p>Location:<br><span class='italic'>Macalania Woods</span></p>
+                        <p>Requirements:<br><span class='italic'>Win both butterfly hunts, available after getting the airship</span></p>
+                        <p>Abilities:</p>
+                        <ul class="italic">
+                            <li>Break Damage Limit</li>
+                            <li>Triple Overdrive</li>
+                            <li>Double AP</li>
+                            <li>Evade & Counter</li>
+                        </ul>
+                    </article>
+                </article>
+            </section>
+            <section onclick="check(this)" class="sectionWeapon" id="sectionWeaponMasamune">
+                <h4>Masamune</h4>
+                <article class="weaponInfo">
+                    <article class="weaponCard">
+                        <img src="./assets/images/weapons/masamune.png"/>
+                    </article>
+                    <article class="weaponCard">
+                        <p>Owner: <span class='italic'>Auron</span></p>
+                        <p>Damage Type: <span class='italic'>Low HP</span></p>
+                        <p>Aeon Damage Limit Break: <span class='italic'>Yojimbo</span></p>
+                    </article>
+                </article>
+                <article class="weaponUpgrades">
+                    <article class="weaponCard third">
+                        <h4>Base Weapon</h4>
+                        <p>Location:<br><span class='italic'>Mushroom Rock Road</span></p>
+                        <p>Requirements:<br><span class='italic'>Obtain the Rusty Sword from outside the Cavern of the Stolen Fayth. Present the Rusty Sword to the statue of Lord Mi'ihen</span></p>
+                        <p>Abilities:</p>
+                        <ul class="italic">
+                            <li>No AP</li>
+                        </ul>
+                    </article>
+                    <article class="weaponCard third">
+                        <h4>Mars Crest</h4>
+                        <p>Location:<br><span class='italic'>Mushroom Rock Road</span></p>
+                        <p>Requirements:<br><span class='italic'>None</span></p>
+                        <p>Abilities:</p>
+                        <ul class="italic">
+                            <li>No AP</li>
+                            <li>Double Overdrive</li>
+                        </ul>
+                    </article>
+                    <article class="weaponCard third">
+                        <h4>Mars Sigil</h4>
+                        <p>Location:<br><span class='italic'>Calm Lands</span></p>
+                        <p>Requirements:<br><span class='italic'>Unlock a total of ten Area Conquest and/or Species Conquest monsters</span></p>
+                        <p>Abilities:</p>
+                        <ul class="italic">
+                            <li>Break Damage Limit</li>
+                            <li>Triple Overdrive</li>
+                            <li>First Strike</li>
+                            <li>Counter-Attack</li>
+                        </ul>
+                    </article>
+                </article>
+            </section>
+            <section onclick="check(this)" class="sectionWeapon" id="sectionWeaponGodhand">
+                <h4>Godhand</h4>
+                <article class="weaponInfo">
+                    <article class="weaponCard">
+                        <img src="./assets/images/weapons/godhand.png"/>
+                    </article>
+                    <article class="weaponCard">
+                        <p>Owner: <span class='italic'>Rikku</span></p>
+                        <p>Damage Type: <span class='italic'>Max HP</span></p>
+                        <p>Aeon Damage Limit Break: <span class='italic'>None</span></p>
+                    </article>
+                </article>
+                <article class="weaponUpgrades">
+                    <article class="weaponCard third">
+                        <h4>Base Weapon</h4>
+                        <p>Location:<br><span class='italic'>Mushroom Rock</span></p>
+                        <p>Requirements:<br><span class='italic'>Enter "GODHAND" into the airship. Own the Celestial Mirror</span></p>
+                        <p>Abilities:</p>
+                        <ul class="italic">
+                            <li>No AP</li>
+                        </ul>
+                    </article>
+                    <article class="weaponCard third">
+                        <h4>Mercury Crest</h4>
+                        <p>Location:<br><span class='italic'>Bikanel Desert</span></p>
+                        <p>Requirements:<br><span class='italic'>None</span></p>
+                        <p>Abilities:</p>
+                        <ul class="italic">
+                            <li>No AP</li>
+                            <li>Double Overdrive</li>
+                        </ul>
+                    </article>
+                    <article class="weaponCard third">
+                        <h4>Mercury Sigil</h4>
+                        <p>Location:<br><span class='italic'>Bikanel Island</span></p>
+                        <p>Requirements:<br><span class='italic'>Play hide and seek with the 10 cactuars</span></p>
+                        <p>Abilities:</p>
+                        <ul class="italic">
+                            <li>Break Damage Limit</li>
+                            <li>Triple Overdrive</li>
+                            <li>Double AP</li>
+                            <li>Gillionaire</li>
+                        </ul>
+                    </article>
+                </article>
+            </section>
+        </div>
+        <section class="divider"></section>
+        <div id="sectionJecht">
+            <h2>Jecht Spheres</h2>
+            <p>There are 10 optional spheres obtainable after defeating the Spherimorph boss. New Bushido moves are gained for Auron after defeating the Spherimorph, collecting 3 spheres, and collecting all 10 spheres.</p>
+            <section onclick="check(this)" class="sectionSphere" id="sectionJechtSphere1">
+                <h4>Jecht Sphere 1</h4>
+                <img src="./assets/images/spheres/sphere.png"/>
+                <p>Location:<br><span class='italic'>Macalania Woods</span></p>
+            </section>
+            <section onclick="check(this)" class="sectionSphere" id="sectionJechtSphere2">
+                <h4>Jecht Sphere 2</h4>
+                <img src="./assets/images/spheres/sphere.png"/>
+                <p>Location:<br><span class='italic'>Macalania Woods - South</span></p>
+            </section>
+            <section onclick="check(this)" class="sectionSphere" id="sectionJechtSphere3">
+                <h4>Jecht Sphere 3</h4>
+                <img src="./assets/images/spheres/sphere.png"/>
+                <p>Location:<br><span class='italic'>Besaid Village - right of temple</span></p>
+            </section>
+            <section onclick="check(this)" class="sectionSphere" id="sectionJechtSphere4">
+                <h4>Jecht Sphere 4</h4>
+                <img src="./assets/images/spheres/sphere.png"/>
+                <p>Location:<br><span class='italic'>S.S. Liki - Captain's Room</span></p>
+            </section>
+            <section onclick="check(this)" class="sectionSphere" id="sectionJechtSphere5">
+                <h4>Jecht Sphere 5</h4>
+                <img src="./assets/images/spheres/sphere.png"/>
+                <p>Location:<br><span class='italic'>Luka - hallway outside Aurochs' Locker Room</span></p>
+            </section>
+            <section onclick="check(this)" class="sectionSphere" id="sectionJechtSphere6">
+                <h4>Jecht Sphere 6</h4>
+                <img src="./assets/images/spheres/sphere.png"/>
+                <p>Location:<br><span class='italic'>Mi'ihen Highroad - Oldroad, South</span></p>
+            </section>
+            <section onclick="check(this)" class="sectionSphere" id="sectionJechtSphere7">
+                <h4>Jecht Sphere 7</h4>
+                <img src="./assets/images/spheres/sphere.png"/>
+                <p>Location:<br><span class='italic'>Moonflow - South Wharf</span></p>
+            </section>
+            <section onclick="check(this)" class="sectionSphere" id="sectionJechtSphere8">
+                <h4>Jecht Sphere 8</h4>
+                <img src="./assets/images/spheres/sphere.png"/>
+                <p>Location:<br><span class='italic'>Thunder Plains - center of South area</span></p>
+            </section>
+            <section onclick="check(this)" class="sectionSphere" id="sectionAuronSphere">
+                <h4>Auron Sphere<br>(Jecht Sphere 9)</h4>
+                <img src="./assets/images/spheres/sphere.png"/>
+                <p>Location:<br><span class='italic'>Mushroom Rock Road - near main lift</span></p>
+            </section>
+            <section onclick="check(this)" class="sectionSphere" id="sectionBraskaSphere">
+                <h4>Braska Sphere<br>(Jecht Sphere 10)</h4>
+                <img src="./assets/images/spheres/sphere.png"/>
+                <p>Location:<br><span class='italic'>Mt. Gagazet - Mountain Trail</span></p>
+            </section>
+        </div>
+        <section class="divider"></section>
+        <div id="sectionLancet">
+            <h2>Lancet</h2>
+            <p>Using Lancet on certain enemies can teach Kimahri new moves for his Ronso Rage Overdrive. Most of these moves can be learned while fighting Biran Ronso and Yenke Ronso on Mt. Gagazet.</p>
+            <section onclick="check(this)" class="sectionLancetMove check" id="sectionLancetJump">
+                <h4>Jump</h4>
+                <p>Effect:<br><span class='italic'>Damage one enemy</span></p>
+                <p>Power:<br><span class='italic'>32, Physical</span></p>
+                <p>Learn From:<br><span class='italic'>None</span></p>
+            </section>
+            <section onclick="check(this)" class="sectionLancetMove" id="sectionLancetSeedCannon">
+                <h4>Seed Cannon</h4>
+                <p>Effect:<br><span class='italic'>Damage one enemy</span></p>
+                <p>Power:<br><span class='italic'>33, Physical</span></p>
+                <p>Learn From:<br><span class='italic'>Ragora</span></p>
+            </section>
+            <section onclick="check(this)" class="sectionLancetMove" id="sectionLancetSelfDestruct">
+                <h4>Self-Destruct</h4>
+                <p>Effect:<br><span class='italic'>Kimahri dies and deals massive damage to an enemy. Kimahri cannot be revived or replaced in this fight.</span></p>
+                <p>Power:<br><span class='italic'>MaxHP*3</span></p>
+                <p>Learn From:<br><span class='italic'>Bomb, Biran Ronso, Grenade, Puroboros</span></p>
+            </section>
+            <section onclick="check(this)" class="sectionLancetMove" id="sectionLancetFireBreath">
+                <h4>Fire Breath</h4>
+                <p>Effect:<br><span class='italic'>Deal fire damage to all enemies</span></p>
+                <p>Power:<br><span class='italic'>24, Magic (ignores Magic Defense)</span></p>
+                <p>Learn From:<br><span class='italic'>Dual Horn, Valaha, Yenke Ronso, Grendel</span></p>
+            </section>
+            <section onclick="check(this)" class="sectionLancetMove" id="sectionLancetStoneBreath">
+                <h4>Stone Breath</h4>
+                <p>Effect:<br><span class='italic'>Petrifies all enemies</span></p>
+                <p>Power:<br><span class='italic'>None</span></p>
+                <p>Learn From:<br><span class='italic'>Basilisk, Anacondaur, Yenke Ronso</span></p>
+            </section>
+            <section onclick="check(this)" class="sectionLancetMove" id="sectionLancetAquaBreath">
+                <h4>Aqua Breath</h4>
+                <p>Effect:<br><span class='italic'>Deal water damage to all enemies</span></p>
+                <p>Power:<br><span class='italic'>26, Magic (ignores Magic Defense)</span></p>
+                <p>Learn From:<br><span class='italic'>Chimera, Chimera Brain, Yenke Ronso</span></p>
+            </section>
+            <section onclick="check(this)" class="sectionLancetMove" id="sectionLancetThrustKick">
+                <h4>Thrust Kick</h4>
+                <p>Effect:<br><span class='italic'>Deal damage to an enemy and eject them from battle</span></p>
+                <p>Power:<br><span class='italic'>None</span></p>
+                <p>Learn From:<br><span class='italic'>YKT-63, Biran Ronso, YKT-11</span></p>
+            </section>
+            <section onclick="check(this)" class="sectionLancetMove" id="sectionLancetBadBreath">
+                <h4>Bad Breath</h4>
+                <p>Effect:<br><span class='italic'>Inflict Poison, Sleep, Silence and Darkness on all enemies for 10 turns</span></p>
+                <p>Power:<br><span class='italic'>None</span></p>
+                <p>Learn From:<br><span class='italic'>Malboro, Great Malboro</span></p>
+            </section>
+            <section onclick="check(this)" class="sectionLancetMove" id="sectionLancetDoom">
+                <h4>Doom</h4>
+                <p>Effect:<br><span class='italic'>Inflict Doom on an enemy</span></p>
+                <p>Power:<br><span class='italic'>None</span></p>
+                <p>Learn From:<br><span class='italic'>Ghost, Biran Ronso, Wraith</span></p>
+            </section>
+            <section onclick="check(this)" class="sectionLancetMove" id="sectionLancetWhiteWind">
+                <h4>White Wind</h4>
+                <p>Effect:<br><span class='italic'>Restore HP to the party</span></p>
+                <p>Power:<br><span class='italic'>40, Restorative</span></p>
+                <p>Learn From:<br><span class='italic'>Yenke Ronso (after he uses it), Dark Flan</span></p>
+            </section>
+            <section onclick="check(this)" class="sectionLancetMove" id="sectionLancetMightyGuard">
+                <h4>Mighty Guard</h4>
+                <p>Effect:<br><span class='italic'>Cast Protect, Shell, NulBlaze, NulFrost, NulShock, and NulTide on the party</span></p>
+                <p>Power:<br><span class='italic'>None</span></p>
+                <p>Learn From:<br><span class='italic'>Biran Ronso (after he uses it), Behemoth, Behemoth King</span></p>
+            </section>
+            <section onclick="check(this)" class="sectionLancetMove" id="sectionLancetNova">
+                <h4>Nova</h4>
+                <p>Effect:<br><span class='italic'>Damage all enemies</span></p>
+                <p>Power:<br><span class='italic'>70, Magic (ignores Magic Defense)</span></p>
+                <p>Learn From:<br><span class='italic'>Omega Weapon, Nemesis</span></p>
+            </section>
+        </div>
+        <section class="divider"></section>
+        <div id="sectionArena">
+            <h2>Monster Arena</h2>
+            <section onclick='check(this)' class="sectionMonster sectionMonsterThunderFlan" data-plural-index='0'>
+                <h4>Thunder Flan</h4>
+            </section>
+            <section onclick='check(this)' class="sectionMonster sectionMonsterThunderFlan" data-plural-index="0">
+                <h4>Thunder Flan</h4>
+            </section>
+        </div>
+        <section class="divider"></section>
+        <div id="sectionOaka">
+            <h2>O'aka</h2>
+        </div>
+        <section class="divider"></section>
+        <div id="sectionOverdrive">
+            <h2>Overdrives</h2>
+            <h3>Tidus</h3>
+            <h3>Wakka</h3>
+            <h3>Yuna</h3>
+            <h3>Lulu</h3>
+            <h3>Kimahri</h3>
+            <h3>Auron</h3>
+            <h3>Rikku</h3>
+            <h3>Mode Unlocks</h3>
+        </div>
+        <section class="divider"></section>
+        <div id="sectionSphere">
+            <h2>Sphere Grid</h2>
+        </div>
+        <section class="divider"></section>
+        <div id="sectionBoss">
+            <h2>Superbosses</h2>
+        </div>
+        <section class="divider"></section>
+        <div id="sectionTemple">
+            <h2>Temple Puzzles</h2>
+        </div>
+
+        <script src="./assets/js/sectionVariables.js"></script>
+	    <script src="./assets/js/checkData.js"></script>
+        <script src="./assets/js/checkFunction.js"></script>
+        <script src="./assets/js/checkLoad.js"></script>
+    </body>
+
+</html>
